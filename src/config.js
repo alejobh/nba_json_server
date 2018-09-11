@@ -1,0 +1,19 @@
+const CURRENT_YEAR = (new Date()).getFullYear();
+const API_BASE_URL = 'http://localhost:3004/';
+const NEWS_BASE_PATH = 'articles';
+const TEAMS_BASE_PATH = 'teams';
+const VIDEOS_BASE_PATH = 'videos';
+const API_URL_TEAMS = API_BASE_URL+TEAMS_BASE_PATH;
+const API_URL_NEWS = API_BASE_URL+NEWS_BASE_PATH
+const API_URL_VIDEOS = API_BASE_URL+VIDEOS_BASE_PATH;
+
+export {
+    API_BASE_URL,
+    CURRENT_YEAR,
+    API_URL_NEWS,
+    NEWS_BASE_PATH,
+    API_URL_TEAMS,
+    TEAMS_BASE_PATH,
+    API_URL_VIDEOS,
+    VIDEOS_BASE_PATH,
+}
